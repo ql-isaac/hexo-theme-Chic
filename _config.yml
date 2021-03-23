@@ -1,5 +1,7 @@
 # Header
-navname: Bentham's Blog
+navname: ql's space
+
+since_year: 2020
 
 # navigatior items
 nav:
@@ -9,21 +11,25 @@ nav:
   About: /about
 
 # favicon
-favicon: /favicon.ico
+favicon: /favicon.png
 
 # Profile
-nickname: Jeremy Bentham
+nickname: ql-isaac
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 一尘不染不是不再有尘埃，而是尘埃让它飞扬，我自做我的阳光。
+avatar: https://image.ql-isaac.cn/站长头像.jpg
 
 # main menu navigation
 ## links key words should not be changed.
 ## Complete url after key words.
 ## Unused key can be commented out.
 links:
-  Blog: /archives
+  blog: https://blog.ql-isaac.cn/
+  www: https://ql-isaac.cn/
+  nav: https://nav.ql-isaac.cn/
+  space: /
+  mail: mailto:834471527@qq.com
   # Category:
   # Tags: 
   # Link:
@@ -33,7 +39,7 @@ links:
   # Gallery:
   # RSS:
   # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  #ZhiHu: https://www.zhihu.com/people/sirice
   # LinkedIn:
   # FaceBook:
   # Twitter:
@@ -43,13 +49,13 @@ links:
   # Sketch:
   # Gitlab:
   # Dribbble:
-  Instagram:
-  Reddit:
+  #Instagram:
+  #Reddit:
   # YouTube:
-  # QQ:
+  #QQ: tencent://message/?uin=834471527
   # Weibo:
-  # WeChat:
-  Github: https://github.com/Siricee
+  #WeChat:
+  Github: https://github.com/ql-isaac
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -69,7 +75,7 @@ post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: false
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
@@ -104,3 +110,12 @@ mathjax:
   import: demand # global or demand
   ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
   ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+
+# Note tag (bs-callout)
+note:
+  # Note tag type values:
+  #  - basic     basic bs-callout note tag style. Default.
+  #  - modern    modern note tag style. Support fontawesome icons.
+  #  - disabled  disable all CSS styles import of note tag.
+  type: basic
+  border_radius: 3
